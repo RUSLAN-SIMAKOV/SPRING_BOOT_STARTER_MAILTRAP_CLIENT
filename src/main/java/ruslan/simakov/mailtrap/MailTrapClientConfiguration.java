@@ -17,14 +17,14 @@ public class MailTrapClientConfiguration {
     }
 
     @Bean
-    RestClient restClient(RestClient.Builder builder) {
+    RestClient mailtrapRestClient(RestClient.Builder builder) {
         return builder
                 .baseUrl(mailTrapClientProperties.baseUrl())
                 .build();
     }
 
     @Bean
-    MailtrapClient mailTrapClient(RestClient restClient) {
+    MailtrapClient mailtrapClient(RestClient restClient) {
         return new MailtrapClient(restClient);
     }
 }
