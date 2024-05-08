@@ -40,7 +40,7 @@ Go to pom.xml of your project and add dependency
 <dependency>
     <groupId>ruslan.simakov</groupId>
     <artifactId>spring-boot-starter-mailtrap-client</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
 </dependency>
 ```
 Add to application.properties your MAILTRAP API token.
