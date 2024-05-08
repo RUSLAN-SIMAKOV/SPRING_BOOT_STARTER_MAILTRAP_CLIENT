@@ -1,7 +1,8 @@
-package ruslan.simakov.mailtrap.model;
+package ruslan.simakov.mailtrap.client;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestClient;
+import ruslan.simakov.mailtrap.model.Mail;
 
 public class MailtrapClient {
 

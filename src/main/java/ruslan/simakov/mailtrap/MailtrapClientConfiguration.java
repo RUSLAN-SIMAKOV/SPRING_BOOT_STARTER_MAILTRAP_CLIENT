@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.web.client.RestClient;
-import ruslan.simakov.mailtrap.model.MailtrapClient;
+import ruslan.simakov.mailtrap.client.MailtrapClient;
 
 @AutoConfiguration
 @EnableConfigurationProperties(MailtrapClientProperties.class)

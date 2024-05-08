@@ -8,6 +8,7 @@ import org.springframework.boot.test.context.runner.ApplicationContextRunner;
 import org.springframework.http.ResponseEntity;
 import ruslan.simakov.mailtrap.MailtrapClientConfiguration;
 import ruslan.simakov.mailtrap.MailtrapClientProperties;
+import ruslan.simakov.mailtrap.client.MailtrapClient;
 
 import java.util.Base64;
 import java.util.List;
